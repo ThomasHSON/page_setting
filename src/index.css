@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-[#333333];
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#4E6DB4] hover:bg-[#3A5A94] text-white transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-[#F4F7FC] hover:bg-[#E2E8F6] text-[#333333] transition-colors;
+  }
+  
+  .btn-highlight {
+    @apply bg-[#D9534F] hover:bg-[#C12E2A] text-white transition-colors;
+  }
+}
